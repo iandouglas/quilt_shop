@@ -7,10 +7,16 @@ To Use:
 ```bash
 $ git clone ...
 $ cd 
-$ git fetch
+$ git branch -a
 $ git checkout add_fabric_crud
 $ git pull --rebase origin master
-#fix merge conflics
-$ git rebase --continue
+# fix first merge conflict
 $ git add file_name
+$ git rebase --continue
+# fix next merge conflict
+$ git add file_name
+$ git rebase --continue
+# fix final merge conflict
+$ git add file_name
+$ git rebase --continue
 ```

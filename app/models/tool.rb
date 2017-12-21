@@ -1,6 +1,6 @@
 class Tool < ApplicationRecord
 
-  has-many :kit_tools
-  has-many :kits, through: :kit_tools
+  has_many :kit_tools
+  has_many :kits, through: :kit_tools
 
 end

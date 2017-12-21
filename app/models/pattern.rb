@@ -1,5 +1,5 @@
 class Pattern < ApplicationRecord
 
-  has-many :kits
+  has_many :kits
 
 end

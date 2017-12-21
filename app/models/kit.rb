@@ -1,9 +1,9 @@
 class Kit < ApplicationRecord
 
-  has-many :kit_tools
-  has-many :tools, through: :kit_tools
-  has-many :kit_fabrics
-  has-many :fabrics, through: :kit_fabrics
-  belongs-to :pattern
+  has_many :kit_tools
+  has_many :tools, through: :kit_tools
+  has_many :kit_fabrics
+  has_many :fabrics, through: :kit_fabrics
+  belongs_to :pattern
 
 end

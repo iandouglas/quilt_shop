@@ -1,6 +1,6 @@
 class KitTool < ApplicationRecord
 
-  belongs-to :kit
-  belongs-to :tool
+  belongs_to :kit
+  belongs_to :tool
 
 end

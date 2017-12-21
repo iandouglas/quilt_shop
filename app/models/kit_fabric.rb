@@ -1,6 +1,6 @@
 class KitFabric < ApplicationRecord
 
-  belongs-to :fabric
-  belongs-to :kit
+  belongs_to :fabric
+  belongs_to :kit
 
 end

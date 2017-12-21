@@ -12,4 +12,5 @@ $ git checkout add_fabric_crud
 $ git pull --rebase origin master
 #fix merge conflics
 $ git rebase --continue
+$ git add file_name
 ```
